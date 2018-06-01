@@ -73,10 +73,11 @@
 		{{ end }}
 
 		<!-- Three -->
+		{{ with .Site.GetPage "page" "practices.md"}}
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Adipiscing amet consequat</h2>
+						<h2>{{ .Title }}</h2>
 					</header>
 					<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
 					<div class="row 150%">
@@ -107,6 +108,7 @@
 					</div>
 				</div>
 			</section>
+		{{ end }}
 
 		<!-- Four -->
 			<section id="four" class="main style2 special">
