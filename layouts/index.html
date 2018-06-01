@@ -79,36 +79,42 @@
 					<header class="major">
 						<h2>{{ .Title }}</h2>
 					</header>
+		{{ end }}
 					<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+		{{ with .Site.GetPage "page" "practices-scrum.md"}}
 					<div class="row 150%">
 						<div class="4u 12u$(medium)">
 							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<h3>{{ .Title }}</h3>
+							{{ .Content }}
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
 						</div>
+		{{ end }}
+		{{ with .Site.GetPage "page" "practices-xp.md"}}
 						<div class="4u 12u$(medium)">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+							<h3>{{ .Title }}</h3>
+							{{ .Content }}
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
 						</div>
+		{{ end }}
+		{{ with .Site.GetPage "page" "practices-technical-excellence.md"}}
 						<div class="4u$ 12u$(medium)">
 							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<h3>{{ .Title }}</h3>
+							{{ .Content }}
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
 						</div>
+		{{ end }}
 					</div>
 				</div>
 			</section>
-		{{ end }}
 
 		<!-- Four -->
 			<section id="four" class="main style2 special">
