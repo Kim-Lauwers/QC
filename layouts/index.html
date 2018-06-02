@@ -133,12 +133,17 @@
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					{{ range .Site.Params.social }}
+					<li>
+						<a target="_blank" href="{{ .url }}">
+							<i class="icon alt {{ .icon }}">
+								<span class="label">{{ .name }}</span>
+							</i>
+						</a>
+					</li>
+					{{ end }}
 				</ul>
+
 				<ul class="copyright">
 					<li>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>. All rights reserved</li>
 					<li>Design by <a href="http://twitter.com/ajlkn">AJ</a></li>

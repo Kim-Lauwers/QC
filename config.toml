@@ -15,19 +15,31 @@ dateForm = "January 2, 2006"
 # Variables for out of site navigation
 
 [[params.social]]
-	icon = "fa-facebook"
-    name = "Facebook"
-	url = "https://www.facebook.com/groups/357231384348318/"
-    weight = 1
-
-[[params.social]]
     icon = "fa-twitter"
     name = "Twitter"
 	url = "https://twitter.com/qualitycoders"
     weight = 5
 
 [[params.social]]
-    icon = "fa-mail-forward"
+    icon = "fa-linkedin"
+    name = "Linkedin"
+	url = "https://www.linkedin.com/in/kimlauwers/"
+    weight = 6
+
+[[params.social]]
+    icon = "fa-github"
+    name = "Github"
+	url = "https://github.com/Kim-Lauwers"
+    weight = 7
+
+[[params.social]]
+    icon = "fa-keybase"
+    name = "Keybase"
+	url = "https://keybase.io/kimlauwers"
+    weight = 8
+
+[[params.social]]
+    icon = "fa-envelope"
     name = "Email"
 	url = "mailto:info@qualitycoders.be"
     weight = 10
