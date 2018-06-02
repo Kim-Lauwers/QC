@@ -87,9 +87,11 @@
 							<span class="image fit"><img src="{{ .Params.imageUrl }}" alt="{{ .Params.imageAlt }}" /></span>
 							<h3>{{ .Title }}</h3>
 							{{ .Content }}
+							<!--
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
+							-->
 						</div>
 		{{ end }}
 		{{ with .Site.GetPage "page" "practices-training.md"}}
@@ -97,9 +99,11 @@
 							<span class="image fit"><img src="{{ .Params.imageUrl }}" alt="{{ .Params.imageAlt }}" /></span>
 							<h3>{{ .Title }}</h3>
 							{{ .Content }}
+							<!--
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
+							-->
 						</div>
 		{{ end }}
 		{{ with .Site.GetPage "page" "practices-technical-excellence.md"}}
@@ -107,28 +111,35 @@
 							<span class="image fit"><img src="{{ .Params.imageUrl }}" alt="{{ .Params.imageAlt }}" /></span>
 							<h3>{{ .Title }}</h3>
 							{{ .Content }}
+							<!--
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
+							-->
 						</div>
 		{{ end }}
 					</div>
 				</div>
 			</section>
 
-		<!-- Four -->
+		<!-- Get In Touch -->
+		{{ with .Site.GetPage "page" "getInTouch.md"}}
 			<section id="four" class="main style2 special">
 				<div class="container">
 					<header class="major">
-						<h2>Ipsum feugiat consequat?</h2>
+						<h2>{{ .Title }}</h2>
 					</header>
-					<p>Sed lacus nascetur ac ante amet sapien.</p>
+					<p>{{ .Content }}</p>
+
+					<!--
 					<ul class="actions uniform">
 						<li><a href="#" class="button special">Sign Up</a></li>
 						<li><a href="#" class="button">Learn More</a></li>
 					</ul>
+					-->
 				</div>
 			</section>
+		{{ end }}
 
 		<!-- Footer -->
 			<section id="footer">
