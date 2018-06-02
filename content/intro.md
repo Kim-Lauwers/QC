@@ -4,7 +4,7 @@ date = 2018-03-09T11:19:39+01:00
 draft = false
 layout = "intro"
 +++
-We believe our world of work is constantly change and with autonomic, agile and passionated teams we believe we can react to this changes.
+We believe our world of work is constantly changing and with autonomic, agile and passionated teams we believe we can react to this changes.
 
 We help teams and organisations successfully self-organise with a clear focus. This leads to happier people expressing their full potential in their jobs which means more quality.  
  
