@@ -33,7 +33,7 @@ dateForm = "January 2, 2006"
     weight = 7
 
 [[params.social]]
-    icon = "fa-keybase"
+    icon = "fa-lock"
     name = "Keybase"
 	url = "https://keybase.io/kimlauwers"
     weight = 8
