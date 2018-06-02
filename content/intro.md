@@ -1,6 +1,8 @@
 +++
 title = "HELLO, WE ARE QUALITY CODERS"
 date = 2018-03-09T11:19:39+01:00
+imageUrl = "images/weAre.jpg"
+imageAlt = "We are Quality Coders"
 draft = false
 layout = "intro"
 +++
