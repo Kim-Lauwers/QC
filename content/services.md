@@ -8,7 +8,7 @@ layout = "intro"
 **Java** has been the common thread through our career, building stand-alone real-time applications or complex micro-service architectures. We constantly deliver quality software matching all our clients' requirements.
 
 ### Web
-You need your own spot on the web or a web application for internal usage? Let us worry about the technical details.
+You need your own spot on the web or a web application for internal usage? Let us worry about the technical and security details.
 
 ### Scrum
 Do you already apply the Scrum principles? Or you are eager to start using them? As certified Scrum Master, Product Owner and Coach with an in-depth technical background and several years of experience as Scrum Master / Coach leading different teams, we can help you.

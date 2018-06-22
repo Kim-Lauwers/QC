@@ -6,9 +6,9 @@ layout = "intro"
 +++
 Starting a new Project? Have a great idea?
 
-In need of IT talent? Want to improve you team working? 
+In need of IT talent? Want to improve your team working? 
 
-Time improve your skills?
+Time to improve your skills?
 
 
-Get in touch and see how we can work together to achive this.
+Get in touch and see how we can work together to achieve this.
